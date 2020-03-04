@@ -1,0 +1,25 @@
+﻿<Window x:Class="SecurityApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SecurityApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Grid>
+		<Label Content="Your IP" HorizontalAlignment="Left" Margin="180,60,0,0" VerticalAlignment="Top"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="260,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="textLocalIp"/>
+		<Label Content="Your Port" HorizontalAlignment="Left" Margin="180,86,0,0" VerticalAlignment="Top"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="260,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="textLocalPort"/>
+		<Label Content="Friends Ip" HorizontalAlignment="Left" Margin="180,109,0,0" VerticalAlignment="Top"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="260,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="textFriendsIp"/>
+		<ListBox HorizontalAlignment="Left" Height="121" Margin="260,174,0,0" VerticalAlignment="Top" Width="120" Name="listMessage"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="260,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="textMessage"/>
+		<Button Content="Send" HorizontalAlignment="Left" Margin="180,300,0,0" VerticalAlignment="Top" Width="75" Height="24" Name="buttonSend" Click="buttonSend_Click"/>
+		<Button Content="Start" HorizontalAlignment="Left" Margin="405,63,0,0" VerticalAlignment="Top" Width="75" Name="buttonStart" Click="buttonStart_Click"/>
+		<Label Content="Friends Port" HorizontalAlignment="Left" Margin="180,128,0,0" VerticalAlignment="Top" Width="75" />
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="260,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="textFriendsPort"/>
+
+
+	</Grid>
+</Window>
